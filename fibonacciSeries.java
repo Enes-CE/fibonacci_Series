@@ -8,14 +8,14 @@ class Main {
     int number1 = 1;
     int number2 = 1;
     int number3 ;
+    
+    System.out.print(number1 +" "+number2);
 
     for(int i = 0; i<term ; ++i){
-
         number3 = number1 + number2;
         number1 = number2;
         number2 = number3;
         System.out.print(" " + sayi3);
-
     }
   }
 }
