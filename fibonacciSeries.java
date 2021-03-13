@@ -4,16 +4,17 @@ class Main {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Lütfen terim sayısını giriniz : ");
     int term = scanner.nextInt();
-    int sayi1 = 1;
-    int sayi2 = 1;
-    int sayi3 ;
+    
+    int number1 = 1;
+    int number2 = 1;
+    int number3 ;
 
     for(int i = 0; i<term ; ++i){
 
-        sayi3=sayi1+sayi2;
-        sayi1=sayi2;
-        sayi2=sayi3;
-        System.out.print(" "+sayi3);
+        number3 = number1 + number2;
+        number1 = number2;
+        number2 = number3;
+        System.out.print(" " + sayi3);
 
     }
   }
